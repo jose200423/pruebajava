@@ -13,7 +13,7 @@ public class Elemento {
 	private String nombre;
 	private long movimientos;
 	private int objetivos;
-	
+	private int jose;
 	/**
 	 * metodo constructor de la clase inicializa las variables. 
 	 *
