@@ -7,7 +7,7 @@ public class Numero {
 	private int n1;
 	private int m;
 	private int p;
-	private int jose;
+	
 
 	public Numero(String texto) {
 		this.texto = texto;
