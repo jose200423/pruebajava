@@ -165,18 +165,26 @@ public class Ejercicios {
 	
 	public int calcularFibonacci() {
 		int h = 0;
-		int n = 1;
+		int n = 0;
 		int f = 0;
 		int cont = 0;
 		while(f < 2000) {
 			f = h+n;
 			h=n;
+			if(cont == 0) {
+				h++;
+			}if(cont > 0) {
+				n = n+1;
+			}
 			n = f;
-			if(f>1000 && f<2000){
+			if(f>=0 && f<2000){
+				System.out.println(f);
+				System.out.println("      | " +cont);
 		    cont++;
 		      }
 		}
 		return cont;
+		
 	}
 	
 	
